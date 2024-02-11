@@ -37,6 +37,4 @@ export class CartViewComponent implements OnInit {
     this.cartService.checkout(this.cartItems).subscribe();
   }
 
-
-
 }
